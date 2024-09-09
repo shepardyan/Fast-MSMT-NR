@@ -25,4 +25,5 @@ The tests were performed under the following environment:
 |Name             | number of edges | number of nodes | decomposition time | solution time |
 |-----------------|-----------------|-----------------|--------------------|---------------|
 |        case5    |        101      |       88        |        21.42       |      5.89     |
+|        case33   |       37        |       33        |        0.51        |      0.18     |
 
