@@ -18,7 +18,7 @@ The tests were performed under the following environment:
 
 - Language: Python 3.10
 - Compiler: MSVC 14.2 (with "-O2")
-- Processor: Intel Core i7 12700KF 3.60GHz
+- Processor: Intel Core i7 12700KF 3.60GHz (12 cores)
 - Memory: 64GB RAM
 
 
