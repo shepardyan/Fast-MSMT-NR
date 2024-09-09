@@ -9,7 +9,7 @@ def read_case(case_path: str):
     return graph, src, rel
 
 if __name__ == "__main__":
-    graph, src, rel = read_case("./data/case5")
+    graph, src, rel = read_case("./data/AreaGK")
     res = solvePGM(graph, src, rel)
     
     G = nx.Graph()
