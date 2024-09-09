@@ -10,7 +10,7 @@ def read_case(case_path: str):
 
 if __name__ == "__main__":
     graph, src, rel = read_case("./data/AreaGK")
-    res = solvePGM(graph, src, rel)
+    res = solvePGM(graph, src, rel)  # Output the LOLP of nodes. If you want EENS, provide load level data.
     
     G = nx.Graph()
     G.add_edges_from(graph[:, [1, 2]].tolist())
